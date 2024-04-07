@@ -59,7 +59,6 @@ nav {
 main {
 	float: left;
 	width: 80%;
-	height: ;
 	font-size:medium;
 	font-family: Verdana, sans-serif;
 	text-align: justify;
@@ -69,7 +68,15 @@ main p {
 	padding: 40px;
 	padding-left: 80px;
 	padding-right: 80px;
-	text-align: justify;
+	text-align: left;
+}
+main p::selection{
+	color: hsl(33, 100%, 85%);
+	background-color: hsl(25, 50%, 54%);
+}
+main i::selection{
+	color: hsl(33, 100%, 85%);
+	background-color: hsl(25, 50%, 54%);
 }
 #iconat:hover{
 	color: hsl(25, 50%, 54%);
@@ -78,10 +85,10 @@ main p {
 	color: hsl(0, 100%, 50%);
 }
 #iconig:hover{
-	color: hsl(0, 59%, 41%);
+	color: hsl(296, 100%, 50%);
 }
 #iconfb:hover{
-	color: hsl(240, 100%, 50%);
+	color: hsl(240, 100%, 40%);
 }
 main a {
 	color: hsl(0, 59%, 20%);	
