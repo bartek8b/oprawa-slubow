@@ -73,6 +73,11 @@ main p {
 main p::selection{
 	color: hsl(33, 100%, 85%);
 	background-color: hsl(25, 50%, 54%);
+	
+}
+main i::selection{
+	color: hsl(33, 100%, 85%);
+	background-color: hsl(25, 50%, 54%);
 }
 main b::selection{
 	color: hsl(33, 100%, 85%);
