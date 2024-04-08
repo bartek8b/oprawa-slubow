@@ -18,7 +18,7 @@ nav {
 	background-attachment: local;
 	background-size: cover;
 }
-#header h1 {
+#header h2 {
 	text-align: center;
 	padding: 20px;
 	color: hsl(0, 0%, 90%);
