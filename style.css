@@ -74,10 +74,15 @@ main p::selection{
 	color: hsl(33, 100%, 85%);
 	background-color: hsl(25, 50%, 54%);
 }
-main i::selection{
+main b::selection{
 	color: hsl(33, 100%, 85%);
 	background-color: hsl(25, 50%, 54%);
 }
+main br::selection{
+	color: hsl(33, 100%, 85%);
+	background-color: hsl(25, 50%, 54%);
+}
+
 #iconat:hover{
 	color: hsl(25, 50%, 54%);
 }
