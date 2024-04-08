@@ -117,6 +117,7 @@ footer {
 	background-attachment: local;
 	background-size: cover;
 	float: left;
+	padding-left: 20px;
 }
 footer p {
 	color: hsl(0, 59%, 30%);
@@ -125,7 +126,7 @@ footer p {
 }
 footer i {
 	padding-top: 25px;
-	padding-left: 60px;
+	padding-left: 40px;
 	color: hsl(0, 59%, 30%);
 	float: left;
 }
