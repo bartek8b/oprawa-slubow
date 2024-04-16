@@ -34,7 +34,6 @@ nav {
 .navi a {
 	color: white;
 	text-decoration: none;
-
 }
 .navi div {
 	background-color: hsl(0, 59%, 30%);
@@ -162,7 +161,6 @@ footer i:hover {
 .photo {
 	margin: 20px;
 	margin-top: 0;
-
 }
 .photo img {
 	width: 200px;
