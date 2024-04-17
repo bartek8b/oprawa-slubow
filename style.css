@@ -1,6 +1,10 @@
 * {
 	box-sizing: border-box;
 }
+*::selection{
+	color: hsl(33, 100%, 85%);
+	background-color: hsl(25, 50%, 54%);
+}
 body {
 	background-color: hsl(33, 100%, 85%);
 	margin: 0;
@@ -74,19 +78,6 @@ main p::selection{
 	background-color: hsl(25, 50%, 54%);
 	
 }
-main i::selection{
-	color: hsl(33, 100%, 85%);
-	background-color: hsl(25, 50%, 54%);
-}
-main b::selection{
-	color: hsl(33, 100%, 85%);
-	background-color: hsl(25, 50%, 54%);
-}
-main br::selection{
-	color: hsl(33, 100%, 85%);
-	background-color: hsl(25, 50%, 54%);
-}
-
 #iconat:hover{
 	color: hsl(25, 50%, 54%);
 }
