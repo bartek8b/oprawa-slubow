@@ -97,6 +97,8 @@ main::after {
 	clear: both;
 }
 footer {
+	position: fixed;
+	bottom: 0;
 	width: 100%;
 	border: 1px solid;
 	background-image: url(images/footerpic.png);
@@ -105,8 +107,6 @@ footer {
 	background-attachment: local;
 	background-size: cover;
 	float: left;
-	position: sticky;
-	bottom: 0;
 	font-family: Verdana, sans-serif;
 	font-size: medium;
 }
