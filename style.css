@@ -80,13 +80,13 @@ main p::selection{
 	color: hsl(25, 50%, 54%);
 }
 #iconyt:hover{
-	color: hsl(0, 100%, 50%);
+	color: hsl(25, 50%, 54%);
 }
 #iconig:hover{
-	color: hsl(296, 100%, 48%);
+	color: hsl(25, 50%, 54%);
 }
 #iconfb:hover{
-	color: hsl(240, 100%, 50%);
+	color: hsl(25, 50%, 54%);
 }
 main a {
 	color: hsl(0, 59%, 20%);	
@@ -108,7 +108,7 @@ footer {
 	position: sticky;
 	bottom: 0;
 	font-family: Verdana, sans-serif;
-	font-size:small
+	font-size: medium;
 }
 footer p {
 	color: hsl(0, 59%, 30%);
