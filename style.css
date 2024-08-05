@@ -72,10 +72,6 @@ main p {
 	padding-right: 80px;
 	text-align: left;
 }
-main p::selection{
-	color: hsl(33, 100%, 85%);
-	background-color: hsl(25, 50%, 54%);
-}
 #iconat:hover{
 	color: hsl(25, 50%, 54%);
 }
