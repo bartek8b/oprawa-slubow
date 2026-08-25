@@ -105,7 +105,12 @@
         target="_blank"
         ><i class="fa-brands fa-facebook fa-xl"></i
       ></a>
-      <a href="http://8b.com.pl" target="_blank"><p>&copy 8b.com.pl 2024</p></a>
+      <a href="http://8b.com.pl" target="_blank"
+        ><p>&copy; 8b.com.pl <span id="year"></span></p
+      ></a>
     </footer>
   </body>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </html>
